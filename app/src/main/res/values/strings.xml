@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Калькулятор калорий</string>
+    <string name="weight_edittext">Вес, кг</string>
+    <string name="height_edittext">Рост, см</string>
+    <string name="age_edittext">Возраст, лет</string>
+    <string name="title_text">Введите данные для плана питания</string>
+</resources>
