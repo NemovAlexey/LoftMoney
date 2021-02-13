@@ -13,16 +13,18 @@
         android:text="@string/title_text"
         android:textSize="20dp"
         android:textStyle="bold" />
+
     <TextView
         android:id="@+id/text_sex"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/title_text"
+        android:layout_gravity="start"
+        android:layout_marginTop="73dp"
         android:text="Выберите пол:"
         android:textSize="@dimen/text_size"
-        android:layout_gravity="start"
-        android:textStyle="bold"
-        android:layout_below ="@id/title_text"
-        />
+        android:textStyle="bold" />
+
     <CheckBox
         android:id="@+id/male"
         android:layout_width="wrap_content"
